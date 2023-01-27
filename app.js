@@ -9,6 +9,7 @@ const main = async () => {
     opt = await showMenu();
     console.log({opt})
     if(opt !== '7') await pause()
+    
   } while (opt !== '7');
 };
 

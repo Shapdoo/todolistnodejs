@@ -35,7 +35,7 @@ const pause = () => {
       output: process.stdout,
     });
 
-    readline.question(`\nPresione ${"ENTER".bgGreen}\n`, (opt) => {
+    readline.question(`\nPresione ${"ENTER".bgGreen.black}\n`, (opt) => {
       readline.close()
       resolve();
     });
